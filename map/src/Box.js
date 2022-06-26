@@ -10,15 +10,8 @@ function Box() {
     background-color: white;
   `;
 
-  const texts = ["멋쟁이사자처럼", "중앙대학교", "최고"];
-  const textList = texts.map((text, index) => <div key={index}>{text}</div>);
-  return (
-    <>
-      <StyledBox>{textList[0]}</StyledBox>
-      <StyledBox>{textList[1]}</StyledBox>
-      <StyledBox>{textList[2]}</StyledBox>
-    </>
-  );
+  const text = ["멋쟁이사자처럼", "중앙대학교", "최고"];
+  return text.map((t, i) => <StyledBox key={i}>{t}</StyledBox>);
 }
 
 export default Box;
