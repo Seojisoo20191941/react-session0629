@@ -11,13 +11,7 @@ function App() {
   //     <Puang />
   //   </>
   // );
-  // return (
-  //   <div style={{ display: "flex" }}>
-  //     <Box />
-  //     <Box />
-  //     <Box />
-  //   </div>
-  // );
+
   return (
     <>
       <Box />
