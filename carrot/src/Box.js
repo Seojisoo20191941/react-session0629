@@ -1,20 +1,21 @@
+import React from "react";
 // import { Fragment } from "react";
 import styled from "styled-components";
 import data from "./data.json";
 import "./Box.css";
 
-function Box() {
-  const StyledBox = styled.button`
-    border: 1px solid transparent;
-    width: 30vh;
-    height: 30vh;
-    font-size: 15px;
-    background-color: white;
-    overflow: hidden;
-    margin: 0vh 2vh 2vh 0vh;
-    text-align: left;
-  `;
+const StyledBox = styled.button`
+  border: 1px solid transparent;
+  width: 30vh;
+  height: 30vh;
+  font-size: 15px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0vh 2vh 2vh 0vh;
+  text-align: left;
+`;
 
+const Box = () => {
   return (
     <>
       {data.products.map((product) => (
@@ -31,6 +32,6 @@ function Box() {
       ))}
     </>
   );
-}
+};
 
 export default Box;

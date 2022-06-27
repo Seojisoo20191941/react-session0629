@@ -1,9 +1,10 @@
+import React from "react";
 import "./App.css";
 // import Puang from "./Puang";
 import { Fragment } from "react";
 import Box from "./Box";
 
-function App() {
+const App = () => {
   // return (
   //   <>
   //     <Puang />
@@ -19,6 +20,6 @@ function App() {
       <Box />
     </>
   );
-}
+};
 
 export default App;

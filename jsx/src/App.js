@@ -1,7 +1,8 @@
+import React from "react";
 import "./App.css";
 import { Fragment } from "react";
 
-function App() {
+const App = () => {
   // 하나의 요소로 감싼다.
   // return (
   // <div>
@@ -66,5 +67,6 @@ function App() {
   // }
 
   return <>jsx</>;
-}
+};
+
 export default App;

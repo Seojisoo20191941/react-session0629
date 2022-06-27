@@ -1,8 +1,9 @@
+import React from "react";
 // import { Fragment } from "react";
 import "./Box.css";
 import styled from "styled-components";
 
-function Box() {
+const Box = () => {
   // 1. 파일 안에서 스타일링하기
   //   return (
   //     <div
@@ -29,6 +30,6 @@ function Box() {
     background-color: white;
   `;
   return <StyledBox>box1</StyledBox>;
-}
+};
 
 export default Box;

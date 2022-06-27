@@ -1,6 +1,7 @@
+import React from "react";
 import { Fragment } from "react";
 
-function Puang() {
+const puang = () => {
   return (
     <>
       <h1>멋쟁이사자처럼</h1>
@@ -8,6 +9,6 @@ function Puang() {
       <span>최고</span>
     </>
   );
-}
+};
 
-export default Puang;
+export default puang;
