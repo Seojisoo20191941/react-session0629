@@ -21,7 +21,7 @@ function Box() {
   //return <div className="box-style">box1</div>;
   //
   //3.styled-components 이용하기
-  const StyledBox = styled.button`
+  const StyledBox = styled.div`
     border: 1px solid orange;
     width: 30vh;
     height: 30vh;
